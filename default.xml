@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <default revision="lineage-21.0"
+           remote="github"
+           sync-j="8" />
+
+  <!-- LineageOS base -->
+  <project name="LineageOS/android_build" path="build/make" />
+  <project name="LineageOS/android_frameworks_base" path="frameworks/base" />
+  <project name="LineageOS/android_system_core" path="system/core" />
+
+  <!-- Add more projects as needed -->
+</manifest>
