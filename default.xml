@@ -19,10 +19,4 @@
   <project name="LineageOS/android_packages_apps_Launcher3" path="packages/apps/Launcher3" />
   <project name="LineageOS/android_packages_apps_CMParts" path="packages/apps/CMParts" />
    
- 
-  <!-- Qualcomm support (example) -->
-  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" />
-  <project name="LineageOS/android_hardware_qcom_display"
-         path="hardware/qcom/display"
-         revision="lineage-21.0" />
 </manifest>
