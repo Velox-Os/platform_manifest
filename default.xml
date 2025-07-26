@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="github" fetch="https://github.com/" />
-  <default revision="lineage-21.0" remote="github" sync-j="6" />
+  <default revision="lineage-22.0" remote="github" sync-j="6" />
 
   <!-- Core AOSP/LineageOS Projects -->
   <project name="LineageOS/android_build" path="build/make" />
@@ -9,13 +9,17 @@
   <project name="LineageOS/android_system_core" path="system/core" />
   <project name="LineageOS/android_system_sepolicy" path="system/sepolicy" />
   <project name="LineageOS/android_external_sepolicy" path="external/sepolicy" />
+
+ <!-- Vendor + Customization -->
   <project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
+  
 
   <!-- Essential Apps -->
   <project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" />
   <project name="LineageOS/android_packages_apps_Launcher3" path="packages/apps/Launcher3" />
   <project name="LineageOS/android_packages_apps_CMParts" path="packages/apps/CMParts" />
-
+   
+ 
   <!-- Qualcomm support (example) -->
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" />
   <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display" />
