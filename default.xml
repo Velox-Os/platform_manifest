@@ -22,5 +22,7 @@
  
   <!-- Qualcomm support (example) -->
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" />
-  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display" />
+  <project name="LineageOS/android_hardware_qcom_display"
+         path="hardware/qcom/display"
+         revision="lineage-21.0" />
 </manifest>
